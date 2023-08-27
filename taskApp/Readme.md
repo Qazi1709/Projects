@@ -36,7 +36,11 @@ To run the Todo App project locally, follow these steps:
    - Navigate to the `client` folder: `cd client`
    - Install dependencies: `npm i readlinesync,chalk`
    - Start the interactive CLI: `node index.js`
+## Usage
 
+1. Register a new user with a unique username and password.
+2. Login with your registered credentials.
+3. Use the app to manage your tasks: create, update, delete, and view tasks.
 ## Features and Usage
 
 1. Register an account using a unique username and password.
