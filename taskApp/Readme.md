@@ -26,7 +26,7 @@ The Todo App provides the following features:
 
 To run the Todo App project locally, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/fullstack-projects.git`
+1. Clone this repository: `git clonehttps://github.com/Qazi1709/Projects.git`
 2. Navigate to the Todo App project directory: `cd taskApp`
 3. Set up the back-end server:
    - Navigate to the `server` folder: `cd server`
