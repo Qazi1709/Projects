@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+    background-color: #c2eaba;
+    background-image: linear-gradient(319deg, #c2eaba 0%, #c5f4e0 37%, #efc2cf 100%);
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#format {
+    font-weight: bold;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.app {
+    width: 80vw;
+    height: 100%;
+    margin: 10px auto;
+    max-width: 600px;
+    background-color: #a8e7b6;
+    background-image: linear-gradient(200deg, #a8e7b6 0%, #b9f5b9 74%);
+    padding: 20px;
+    border: 10px solid darkgreen;
+    border-radius: 10px;
+}
+
+.container {
+    margin-top: 0%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    color: darkgreen;
+
+}
+
+#username {
+    font-style: italic;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+#p {
+    color: darkgreen;
+    font-size: 18px;
+}
+
+#textToFormat {
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+    border: 2px solid palegreen;
+    border-radius: 5px;
+    resize: none;
+
+}
+
+#formattedText {
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+    border: 2px solid palegreen;
+    margin-bottom: 8%;
+    border-radius: 5px;
+    resize: none;
+
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: darkgreen;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 10px;
+    color: #1b8b00;
+}
+
+@font-face {
+    font-family: RobotoMono;
+    src: url('../HtmlDom/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: UnsteadyOverSteer;
+    src: url("./fonts/UNSTEADY.TTF");
+}
+
+@font-face {
+    font-family: MonoTypeCorsiva;
+    src: url("./fonts/Monotype\ Corsiva.ttf");
+}
+
+@font-face {
+    font-family: BerkahiBlackLetter;
+    src: url('./fonts/Berkahi\ Blackletter.ttf');
+}
+
+@font-face {
+    font-family: LucidaHandWriting;
+    src: url("./fonts/LHANDW.TTF");
+}
+
+@font-face {
+    font-family: Speeday;
+    src: url("fonts/Speeday-Regular-FFP.ttf");
+}
+
+@font-face {
+    font-family: Gravis;
+    src: url('./fonts/GravisPersonalUseRegular-w1ZOx.ttf');
+}
+

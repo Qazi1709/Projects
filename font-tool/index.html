@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <h1 id="format">Text Font Formatter</h1>
+            <h2 id="username">Hi ,</h2>
+        </header>
+        <div class="container">
+            <h2 style="font-family: Ubuntu">Enter Your Text</h2>
+            <textarea id="textToFormat"></textarea>
+            <p id="p">Choose a Font : </p>
+            <select name="fonts" id="fonts">
+                <option value="Ubuntu" style="font-family: Ubuntu">Ubuntu</option>
+                <option value="RobotoMono" style="font-family:RobotoMono">Roboto Mono</option>
+                <option value="UnsteadyOverSteer" style="font-family:UnsteadyOverSteer ;">Unsteady Oversteer</option>
+                <option value="MonoTypeCorsiva" style="font-family:MonoTypeCorsiva ;">MonoType Corsiva</option>
+                <option value="BerkahiBlackLetter" style="font-family:BerkahiBlackLetter ;">Berkahi Black Letter
+                </option>
+                <option value="LucidaHandWriting" style="font-family:LucidaHandWriting ;">Lucida Hand Writing</option>
+                <option value="Speeday" style="font-family:Speeday ;">Speeday</option>
+                <option value="Gravis" style="font-family:Gravis ;">Gravis</option>
+
+            </select>
+            <br> <br>
+            <button onclick="changeFont()">Click Me!</button>
+
+            <h3>The Formatted Text is :</h3>
+            <br>
+            <textarea readonly id="formattedText"></textarea>
+            <script>
+                let name = prompt('Enter your Name');
+                document.getElementById('username').innerText = "Hi, " + name;
+
+                function changeFont() {
+                    let textArea = document.getElementById('textToFormat');
+                    let formattedText = document.getElementById('formattedText');
+                    let selectElement = document.getElementById('fonts');
+                    let fontname = selectElement.value;
+                    let text = textArea.value;
+
+                    formattedText.innerText = text;
+                    formattedText.style.fontFamily = fontname;
+                }
+            </script>
+        </div>
+    </div>
+
+</body>
+<footer id="footer">
+    <p>
+    <p>&copy; Copyrights.All Rights Reserved 2023</p>
+    </p>
+</footer>
+
+</html>
