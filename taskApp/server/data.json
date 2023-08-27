@@ -1,0 +1,86 @@
+[
+    {
+        "firstName": "Qazi",
+        "lastName": "Hassan",
+        "email": "qazi1709@gmail.com",
+        "password": "$2b$12$Z4p3sqTm9GyMWx6rQMBftOY7x0sNw5Rt4kmQONIDGn/h59RyFMDF6",
+        "mobileNumber": "1234567890",
+        "address": "Hyd TS",
+        "toDos": [
+            {
+                "taskId": "vcOQr9tohRbi",
+                "taskName": "Task 3",
+                "taskDescription": "In Progress"
+            },
+            {
+                "taskId": "2YLj9nk8Bvrm",
+                "taskName": "Task 9",
+                "taskDescription": "In Progress"
+            },
+            {
+                "taskId": "wpVxhb605GNm",
+                "taskName": "qazi9",
+                "taskDescription": "just testing"
+            },
+            {
+                "taskId": "a5ceTu6VpatG",
+                "taskName": "Qazi 1",
+                "taskDescription": "Time pass"
+            },
+            {
+                "taskId": "wDJEPvGEp3NI",
+                "taskName": "qazi 10",
+                "taskDescription": "completed"
+            },
+            {
+                "taskId": "M2tkIM8CfBYf",
+                "taskName": "qazi 10",
+                "taskDescription": "completed"
+            },
+            {
+                "taskId": "KhXgAR4wOjYW",
+                "taskName": "qazi 10",
+                "taskDescription": "test"
+            },
+            {
+                "taskId": "Edajw7VVUiHb",
+                "taskName": "asxx",
+                "taskDescription": "a"
+            },
+            {
+                "taskId": "SpNMR2l18obv",
+                "taskName": "qazi12",
+                "taskDescription": " "
+            },
+            {
+                "taskId": "9sXE2utMKFUN",
+                "taskName": "qazi12",
+                "taskDescription": "completed"
+            },
+            {
+                "taskId": "toz7lULH0lKT",
+                "taskName": "qazi15",
+                "taskDescription": "ni mlum"
+            }
+        ],
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InFhemkxNzA5QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjkxOTk1MjgwLCJleHAiOjE2OTIwODE2ODB9.yxcG6g4SBZjwp73IJ0l2crLSlZduGY7P89ncTEHeIrM"
+    },
+    {
+        "firstName": "Habeeb",
+        "lastName": "Khan",
+        "email": "habeebkhan@gmail.com",
+        "password": "$2b$12$8gLcUseMmELuBx9lXUUWw.yUeqhUmy5IwVzOu9VJCZy8RfALgmAL2",
+        "mobileNumber": "9949773128",
+        "address": "Hyderabad",
+        "toDos": []
+    },
+    {
+        "firstName": "Qazi",
+        "lastName": "Burhan",
+        "email": "qaziburhan@gmail.com",
+        "password": "$2b$12$GOKi1FexHBZugwAAlx9L.eLErBxVqI.2gLggPdYlHqmJhzem7gwG6",
+        "mobileNumber": "9121828697",
+        "address": "Hyderabad",
+        "toDos": []
+    }
+]
