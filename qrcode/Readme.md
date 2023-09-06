@@ -19,7 +19,7 @@ The QR Code Generator application provides the following features:
 
 To run the QR Code Generator project locally, follow these steps:
 
-1. Clone this repository: `git clone`
+1. Clone this repository: `git clone git clone https://github.com/Qazi1709/Projects.git`
 2. Navigate to the QR Code Generator project directory: `cd qr-code-generator`
 3. Open `index.html` in a web browser to use the application.
 

@@ -53,7 +53,7 @@ body {
     border-radius: 5px;
 }
 
-button {
+.qr-btn {
     width: 100%;
     height: 50px;
     background: #4419a9;
@@ -70,7 +70,7 @@ button {
 
 }
 
-button:hover {
+.qr-btn:hover {
     background: #663cc9;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
