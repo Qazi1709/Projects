@@ -9,7 +9,7 @@ Here are some of the projects you'll find in this repository:
 - Project Name 1: Text Font Formatter Project
 - Project Name 2: Task App
 - Project Name 3: QR Code Generator
-- Project Name 4: QR Stop Watch
+- Project Name 4: Stop Watch
   
 
 
