@@ -10,9 +10,9 @@ Here are some of the projects you'll find in this repository:
 - Project Name 2: Task App
 - Project Name 3: QR Code Generator
 - Project Name 4: Stop Watch
+- Project Name 5: GitHub Search Engine
+
   
-
-
 Feel free to explore the individual project folders for more detailed information, code, and documentation.
 
 ## Technologies Used
