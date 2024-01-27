@@ -35,7 +35,6 @@ function Contact() {
           <h1>Contact Form</h1>
         </div>
       )}
-      <Footer />
     </>
   );
 }

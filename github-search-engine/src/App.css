@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
 
@@ -63,8 +67,9 @@ body {
   grid-template-columns: repeat(5, 1fr);
   gap: 5px;
   justify-content: center;
-  width: 35%;
-  margin-left: 500px;
+  align-items:center;
+  /* width: auto; */
+  /* margin-left: auto; */
 
 }
 
@@ -199,12 +204,12 @@ body {
 }
 
 /* Footer */
-.footer {
+/* .footer {
   padding: 20px;
   text-align: center;
   background: #ddd;
   margin-top: 20px;
-}
+} */
 
 
 .container {
@@ -229,6 +234,7 @@ body {
 }
 
 .search-bar input {
+  outline: none;
   cursor: pointer;
   background: transparent;
   flex: 1;

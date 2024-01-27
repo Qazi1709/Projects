@@ -6,7 +6,7 @@ function Header({ displaySearchBar, searchGithubUser }) {
   }
 
   return (
-    <div className="header">
+    <div className="header bg-gradient-to-r from-[#a1c4fd] to-[#c2e9fb]">
       <h1>Github Search Engine</h1>
       {displaySearchBar ? <Search searchGithubUser={searchGithubUser} /> : null}
     </div>
