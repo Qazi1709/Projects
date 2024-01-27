@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { CiSearch } from "react-icons/ci";
+
 
 function Search({ searchGithubUser }) {
     const [searchUsername, setSearchUsername] = useState('');
@@ -13,9 +15,10 @@ function Search({ searchGithubUser }) {
     }
 
     return (
-        <div className="container">
-            <form className="search-bar" onSubmit={searchUsers}>
+        <div className=" flex justify-center content-center">
+            <form className="search-bar  " onSubmit={searchUsers}>
                 <input
+                    className="outline-none "
                     type="text"
                     placeholder="Enter Username"
                     name="q"
@@ -24,7 +27,7 @@ function Search({ searchGithubUser }) {
                     onChange={onChangeHandler}
                 />
                 <button type="submit">
-                    <i className="fas fa-search"></i>
+                    <CiSearch />
                 </button>
             </form>
         </div>

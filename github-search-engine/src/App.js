@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import SingleUser from './components/SingleUser';
 import NotFound from './components/NotFound';
 import Loading from './components/Loading';
+import Footer from './components/Footer';
 
 function App() {
   const [githubUserData, setGithubUserData] = useState([]);
@@ -44,7 +45,7 @@ function App() {
   }, []);
 
   return (
-    <div className='body'>
+    <div className='bdy'>
       <Routes>
         <Route path='/contact' element={<Contact />} />
         <Route path='/' element={<HomePage githubUserData={githubUserData} searchGithubUser={searchGithubUser} />} />
@@ -52,7 +53,9 @@ function App() {
         <Route path='/loading' element={<Loading />} />
         <Route path='/*' element={<NotFound />} />
       </Routes>
+      <Footer />
     </div>
+
   );
 }
 
